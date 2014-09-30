@@ -45,6 +45,7 @@ function av_query(where){
 }
 
 function append_mark(line_no,content){
+	$('#LC'+line_no).css('border-top', '1px solid');
 	$('#LC'+line_no).after('<td class="markc"><p>'+content+'</p></td>');
 }
 
