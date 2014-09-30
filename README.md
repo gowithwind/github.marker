@@ -17,3 +17,8 @@ github.marker
 - 打开chrome的插件管理，勾选开发者模式，加载代码目录即可
 - 在github代码页面，点击图标，即可加载注释
 - 在行号位置点击，即可添加注释
+
+
+#截图
+
+![演示](https://cloud.githubusercontent.com/assets/2367339/4455411/0e97350e-487f-11e4-9663-1d7722513592.png)
