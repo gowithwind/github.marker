@@ -48,10 +48,11 @@ function append_mark(line_no,content){
 	$('#LC'+line_no).after('<td class="markc"><p>'+content+'</p></td>');
 }
 
+
 function main(){
 	$('head').append(
 		'<style>'+
-		'.markc{z-index:1000;position:absolute;right:-30%;width:30%;height:100px;color:red;overflow-y:scroll;word-break: break-word;border: 1px solid;}'+
+		'.markc{z-index:1000;position:absolute;right:-30%;width:30%;height:100px;color:red;overflow-y:scroll;word-break: break-word;border: 1px solid;border-radius:5px;}'+
 		'</style>');
 	$('body').append('<div id="mark_status" style="position:fixed;right:20px;top:20px;background:#eee;">Loading</div>');
 	var path=window.location.href.split('#')[0];
